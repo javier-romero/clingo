@@ -274,7 +274,7 @@ class Model:
     The string representation of a model object is similar to the output of
     models by clingo using the default output.
 
-    `Model` objects cannot be constructed from Python. Instead they are obained
+    `Model` objects cannot be constructed from Python. Instead they are obtained
     during solving (see `Control.solve`). Furthermore, the lifetime of a model
     object is limited to the scope of the callback it was passed to or until
     the search for the next model is started. They must not be stored for later
